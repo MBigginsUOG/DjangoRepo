@@ -30,6 +30,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+#COOKIE SETTINGS
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 # Application definition
 
