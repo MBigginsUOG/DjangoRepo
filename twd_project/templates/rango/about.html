@@ -13,6 +13,9 @@
 </div>
 <div>
 	<img src="{% static 'images/peach.jpg' %}" alt="Picture of Peach" />
-	<img src="{{MEDIA_URL}}cat.jpg" alt="Picture of a cat" /><br />			
+	<img src="{{MEDIA_URL}}cat.jpg" alt="Picture of a cat" /><br />		
 </div>
+<p> 
+This site has had this many visits: {{ visits }}
+</p> 
 {% endblock %}
